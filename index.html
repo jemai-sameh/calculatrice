@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <table>
+        <tr >
+            <td colspan="4"> <input type="text" readonly="readonly" placeholder="0" name="result" id="screen"></td>        
+               
+        </tr>
+        <tr >
+            <td class="calc-td">
+                <input type="button" name="clear" value="CE" class="calc-btn" id="ce" onclick="javascript:f_calc('ce');" >
+            </td>
+            <td class="calc-td">
+                <input type="button" name="retour" value="←" class="calc-btn" onclick="javascript:f_calc('←');">
+
+            </td>
+            <td class="calc-td">
+                <input type="button" name="pourcentage" value="%"class="calc-btn" onclick="javascript:f_calc('%');">
+
+            </td>
+            <td class="calc-td">
+                <input type="button" name="addition" value="+"class="calc-btn" onclick="javascript:f_calc('+');" >
+
+            </td>
+        </tr>
+        <tr>
+            <td class="calc-td">
+                <input type="button" name="7" value="7" class="calc-btn"  onclick="javascript:f_calc('7');">
+            </td>
+            <td class="calc-td">
+                <input type="button" name="8" value="8" class="calc-btn"  onclick="javascript:f_calc('8');">
+
+            </td>
+            <td class="calc-td">
+                <input type="button" name="9" value="9" class="calc-btn"  onclick="javascript:f_calc('9');">
+
+            </td>
+            <td class="calc-td">
+                <input type="button" name="soustraction" value="-" class="calc-btn"  onclick="javascript:f_calc('-');">
+
+            </td>
+        </tr>
+        <tr>
+            <td class="calc-td">
+                <input type="button" name="4" value="4" class="calc-btn"  onclick="javascript:f_calc('4');">
+            </td>
+            <td class="calc-td">
+                <input type="button" name="5" value="5"class="calc-btn"  onclick="javascript:f_calc('5');"> 
+
+            </td>
+            <td class="calc-td">
+                <input type="button" name="6" value="6" class="calc-btn"  onclick="javascript:f_calc('6');">
+
+            </td>
+            <td class="calc-td">
+                <input type="button" name="multipcation" value="x" class="calc-btn"  onclick="javascript:f_calc('*');">
+
+            </td>
+        </tr>
+        <tr>
+            <td class="calc-td">
+                <input type="button" name="1" value="1" class="calc-btn"  onclick="javascript:f_calc('1');">
+            </td>
+            <td class="calc-td">
+                <input type="button" name="2" value="2" class="calc-btn"  onclick="javascript:f_calc('2');">
+
+            </td>
+            <td class="calc-td">
+                <input type="button" name="3" value="3" class="calc-btn"  onclick="javascript:f_calc('3');">
+
+            </td>
+            <td class="calc-td">
+                <input type="button" name="division" value="÷" class="calc-btn"  onclick="javascript:f_calc('/');">
+
+            </td >
+        </tr>
+        <tr>
+            <td class="calc-td">
+                <input type="button" name="0" value="0"class="calc-btn"  onclick="javascript:f_calc('0');">
+            </td>
+            <td class="calc-td">
+                <input type="button" name="negative" value="±"class="calc-btn"  onclick="javascript:f_calc('+-');">
+
+            </td>
+            <td class="calc-td">
+                <input type="button" name="virgule" value="," class="calc-btn"  onclick="javascript:f_calc('.');">
+
+            </td>
+            <td class="calc-td">
+                <input type="button" name="egal" value="=" class="calc-btn"  onclick="javascript:f_calc('=');">
+
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
